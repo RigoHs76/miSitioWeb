@@ -1,0 +1,122 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/**************    Estilos de Header     ************/
+header {
+  width: 100%;
+  background-color: #fff;
+  position: sticky;
+  top: 5px;
+}
+.logo {
+  flex: 2;
+  text-align: center;
+  padding-top: 8px;
+}
+.header-top {
+  display: inline-block;
+}
+
+/************* --------------------------  ********************/
+
+.lista-de-razones {
+  color: chocolate;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+h3 {
+  font-family: 'Peralta', cursive;
+}
+
+.imagen-servicio {
+  width: 33vw;
+  border-width: 15px;
+  border-color: blue;
+  border-style: groove double;
+  border-radius: 5%;
+}
+
+.page-content {
+  background: #5ff006;
+}
+
+#home {
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #D6EAF8;
+  padding: 15px 10px 15px 10px;
+  margin: 5px;
+
+}
+
+[type="radio"]{
+  margin: 8px;
+}
+
+[type="checkbox"]{
+  margin: 8px;
+}
+
+[type="text"]{
+  margin: 8px;
+}
+
+[type="submit"]{
+  margin: 8px;
+}
+
+body {
+  background: none;
+}
+
+.sin-subrayado {
+  text-decoration: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*************   Estilos de los link del menu     ******************/
+a:link {
+  color: violet;
+}
+a:visited {
+  color: gray;
+}
+a:hover {
+  color: yellow;
+}
+a:active {
+  color: red;
+}
+
+/***************************            *******************************/
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: solid 1px #e27e7e;
+  padding: 5px;
+}
+th {
+  background-color: tomato;
+  color: white;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #eee;
+}
+tr:hover {
+  background-color: #aaa;
+  cursor: pointer;
+}

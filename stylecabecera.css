@@ -1,0 +1,116 @@
+/*Aquí va un comentario o comentarios*/
+
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    position: relative;
+    overflow: auto;
+}
+.tapis {
+    background-color: #ffff;   
+}
+
+
+/* -------------- Header Top Seccion-------------- */
+
+.header-top-section {
+    width: 100%;
+    background: #0a9df6;
+    color: #ffff;
+}
+.container {
+    display: block;
+    width: 90%;
+}
+
+.header-top-content ul {
+    padding-bottom: 12px;
+    padding-top: 12px;
+    list-style-type: none;
+    text-align: right;
+}
+
+.header-top-content ul li {
+    width: 90%;   
+    display: inline;
+    margin-right: 10px;
+}
+
+.header-top-content ul li a {
+    color: #fff;
+    font: bold 13px sans-serif;
+    margin: 1em;
+    text-decoration: none;
+}
+
+/*--------------- Estilos de cabecera ----------------- */
+
+header {
+    width: 100%;
+    background-color: #fff;
+    position: sticky;
+    top: 0%;
+    
+}
+.header-container {
+    display: flex;
+    box-shadow: 0px 3px 12px 1px #0a9df6;
+}
+.logo {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logotipo{
+    width:250px;
+}
+.header-derecho {
+    flex: 7;
+    text-align: center;
+}
+.header-superior {
+    padding: 10px;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+/* ------------- Estilos Menu Principal -------------------- */
+.header-inferior {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.menu-cabecera ol li {
+    list-style-type: none;
+    display: inline-block;
+    
+}
+.menu-cabecera ol li a{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+/*************   Estilos de los link del menu     ******************/
+a:link {
+    color: violet;
+  }
+  a:visited {
+    color: gray;
+  }
+  a:hover {
+    color: #0a9df6;
+    text-shadow: 0.2rem 0.2rem 0.25rem #201e1e;
+  }
+  a:active {
+    color: red;
+  }
