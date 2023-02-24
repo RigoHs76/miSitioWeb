@@ -1,0 +1,160 @@
+/*Aquí va un comentario o comentarios*/
+
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    position: relative;
+    overflow: auto;
+    
+}
+.tapis {
+    background-color: #ffff;
+    
+}
+
+/* -------------- Header Top Seccion-------------- */
+.header-top-section {
+    /*display: block;*/
+    width: 100%;
+    background: #0a9df6;
+    color: #ffff;
+}
+.container {
+    display: block;
+    width: 90%;
+}
+
+.header-top-content ul {
+    /*display: block;*/
+    padding-bottom: 12px;
+    padding-top: 12px;
+    list-style-type: none;
+    text-align: right;
+}
+
+.header-top-content ul li {
+    width: 90%;   
+    display: inline;
+    margin-right: 10px;
+}
+
+.header-top-content ul li a {
+    color: #fff;
+    font: bold 13px sans-serif;
+    margin: 1em;
+    text-decoration: none;
+}
+
+/*--------------- Estilos de cabecera ----------------- */
+
+header {
+    width: 100%;
+    background-color: #fff;
+     /*padding: 0;
+    margin: 0;*/
+    position: sticky;
+    top: 0%;
+    
+}
+.header-container {
+    display: flex;
+    box-shadow: 0px 3px 12px 1px #0a9df6;
+    
+}
+.logo {
+    flex: 2;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.logotipo{
+    width:200px;
+}
+.header-derecho {
+    flex: 7;
+    text-align: center;
+}
+.header-superior {
+    padding-top: 10px;
+}
+/* ------------- Estilos Menu Principal -------------------- */
+.header-inferior {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu-cabecera ol li {
+    list-style-type: none;
+    display: inline-block;
+}
+.menu-cabecera ol li a{
+    padding: 30px;
+    text-decoration: none;
+}
+
+/************ Estilos de Carrucel *************/
+
+.imagenes-main {
+    position: relative;
+
+}
+.title {
+    text-align: center;
+    margin: 30px;
+    font-size: 25px;
+    
+}
+.owl-container {
+    max-width: 80%;
+    margin: 0 auto;
+    
+}
+.item {
+    background: rgba(1, 0, 0, 0.315);
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    display: flex;
+    
+}
+.item h4 {
+    font-size: 40px;
+}
+/* -------------- estilos de pie de página ------------ */
+
+footer {
+    width: 100%;
+    display: block;
+    background-color: #656565c2;
+    padding: 0;
+    margin: 0;
+    font: bold 13px sans-serif;
+    color: #fff;
+}
+.footer-container{
+    padding: 1em;
+}
+.avisos-terminos{
+    text-align: center;
+}
+.avisos-terminos p {
+    display: inline;
+    padding: 1em;
+}
+.avisos-terminos p a {
+    text-decoration: none;
+    font: bold 13px sans-serif;
+    color: #fff;
+}
+
+/* Estilos del contenido*/
+
+.galaxias {
+    width: 100%;
+}
